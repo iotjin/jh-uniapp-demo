@@ -16,13 +16,13 @@
 
 		},
 		onLoad(options) {
-			uni.setNavigationBarTitle({
-				title: '跳转传值'
-			})
 			let dict = JSON.parse(options.dict)
 			console.log(dict);
 			console.log(dict.a);
 			this.text = options.dict
+			uni.setNavigationBarTitle({
+				title: '跳转传值'
+			})
 		}
 	}
 </script>

@@ -1,8 +1,10 @@
 <template>
 	<view>
 		<view class="btn" @click="onClickBtn">跳转</view>
+		<!-- #ifdef MP-WEIXIN -->
 		<van-button type="warning">警告按钮</van-button>
 		<van-cell title="单元格" is-link />
+		<!-- #endif -->
 	</view>
 </template>
 
@@ -29,7 +31,7 @@
 	}
 </script>
 
-<style>
+<style lang="scss">
 	.btn {
 		width: 200rpx;
 		height: 200rpx;

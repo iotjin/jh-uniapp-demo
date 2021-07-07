@@ -1,4 +1,10 @@
 {
+	"easycom": {
+		// npm方式安装的配置
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+		// 下载安装方式配置
+		// "^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue",
+	},
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
 		{
 			"path": "pages/module1/index",
@@ -33,7 +39,55 @@
 				"navigationBarTitleText": "",
 				"enablePullDownRefresh": false
 			}
-
+		},
+		{
+			"path": "pages/demoList/demoList",
+			"style": {
+				"navigationBarTitleText": "Demo",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/demoList/eCharts/eChartsDemoList",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/demoList/eCharts/eCharts1",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/demoList/eCharts/eCharts2",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/demoList/eCharts/eCharts3",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/demoList/eCharts/eCharts4",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/demoList/eCharts/eCharts5",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
 		}
 	],
 	"globalStyle": {
@@ -60,7 +114,8 @@
 			"selectedIconPath": "static/images/tab/ic_tab1_select.png",
 			"text": "首页"
 		}, {
-			"pagePath": "pages/module2/index",
+			// "pagePath": "pages/module2/index",
+			"pagePath": "pages/demoList/demoList",
 			"iconPath": "static/images/tab/ic_tab2.png",
 			"selectedIconPath": "static/images/tab/ic_tab2_select.png",
 			"text": "Demo"
