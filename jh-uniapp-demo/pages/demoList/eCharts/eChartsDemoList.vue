@@ -1,6 +1,6 @@
 <template>
 	<view>
-		<base-text-list-view :dataArr="dataArr" @onClick="onClick" />
+		<base-text-list-view :dataArr="dataArr" @onClick="onClickItem" />
 	</view>
 </template>
 
@@ -33,7 +33,7 @@
 			}
 		},
 		methods: {
-			onClick(item) {
+			onClickItem(item) {
 				console.log(item.title);
 				uni.navigateTo({
 					url: item.url

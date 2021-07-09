@@ -1,18 +1,18 @@
 // 校验 
 
 module.exports = {
-    isPhone,
-    isEmpty,
+	Jh_isPhone,
+	Jh_isEmpty,
 }
 
 const regular_phone = /^1[3-9][0-9]{9}$/;
 
-function isEmpty(text) {
-    return text.isEmpty()
+function Jh_isEmpty(text) {
+	return text.isEmpty()
 }
 
-function isPhone(phone) {
-    return regular_phone.test(phone)
+function Jh_isPhone(phone) {
+	return regular_phone.test(phone)
 }
 
 
@@ -23,6 +23,7 @@ myreg.test(str)
 */
 
 /*
-const CheckUtils = require('@utils/checkUtils');
+import CheckUtils from '@/common/utils/checkUtils.js'
+const CheckUtils = require('@/common/utils/checkUtils.js');
 const CheckUtils = require('../../utils/checkUtils.js');
 */

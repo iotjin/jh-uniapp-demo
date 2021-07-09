@@ -8,17 +8,34 @@
 </template>
 
 <script>
+	const ProjectConfig = require('../../common/configs/projectConfig.js')
+	const TorageUtils = require('../../common/utils/torageUtils.js')
 	export default {
 		data() {
 			return {
 				title: 'Hello'
 			}
 		},
-		onLoad() {
-
+		onLoad() {},
+		onShow() {
+			this.switchPage()
 		},
 		methods: {
-
+			switchPage() {
+				let userInfo = TorageUtils.Jh_getStorageSync(ProjectConfig.kUD_UserInfo)
+				console.log(userInfo);
+				if (userInfo) {
+					console.log('跳转主页');
+					uni.reLaunch({
+						url: '../module1/index'
+					});
+				} else {
+					console.log('跳转登录页');
+					uni.reLaunch({
+						url: '../login/login'
+					});
+				}
+			},
 		}
 	}
 </script>

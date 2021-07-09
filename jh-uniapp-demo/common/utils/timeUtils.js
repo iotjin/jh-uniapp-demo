@@ -234,7 +234,8 @@ function getEndTime(time) {
 /*
   使用方法：
 
-  const TimeUtils = require('@utils/timeUtils');
+  import TimeUtils from '@/common/utils/timeUtils.js'
+  const TimeUtils = require('@/common/utils/timeUtils.js');
   const TimeUtils = require('../../utils/timeUtils.js');
 
   //时间戳转指定格式时间

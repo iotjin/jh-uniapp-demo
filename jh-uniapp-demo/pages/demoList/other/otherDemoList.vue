@@ -8,29 +8,18 @@
 	export default {
 		data() {
 			return {
-				title: "DemoList",
+				title: "Other",
 				dataArr: [{
-						title: "ListView",
-						url: ''
-					},
-					{
-						title: "GridView",
-						url: ''
-					},
-					{
-						title: "ECharts",
-						url: './eCharts/eChartsDemoList'
-					},
-					{
-						title: "UI",
-						url: ''
-					},
-					{
-						title: "Other",
-						url: './other/otherDemoList'
+						title: "base-navbar组件",
+						url: './baseNavBarDemo/baseNavBarDemo'
 					},
 				],
 			}
+		},
+		onReady() {
+			uni.setNavigationBarTitle({
+				title: this.title
+			})
 		},
 		methods: {
 			onClickItem(item) {
