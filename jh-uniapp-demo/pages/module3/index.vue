@@ -15,7 +15,6 @@
 <script>
 	const img = require("@/static/images/ic_account.png")
 	const img_set = require("@/static/images/ic_set.png")
-
 	export default {
 		data() {
 			return {

@@ -1,6 +1,6 @@
 <template>
 	<view>
-
+		<!-- 实际一个页面只有一个navbar，isFixed 是为了demo展示才放出来的属性，一般不加 -->
 		<view class="text"> 默认样式，左侧返回和标题 </view>
 		<base-navbar :isFixed="false" title="标题" />
 

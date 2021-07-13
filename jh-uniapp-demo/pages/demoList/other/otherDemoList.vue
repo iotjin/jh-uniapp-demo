@@ -12,6 +12,9 @@
 				dataArr: [{
 						title: "base-navbar组件",
 						url: './baseNavBarDemo/baseNavBarDemo'
+					}, {
+						title: "获取设备系统信息",
+						url: './other/systemInfo',
 					},
 				],
 			}
