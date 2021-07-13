@@ -112,6 +112,5 @@
 	/*每个页面公共css */
 	/* uni.scss  注意要写在第一行，同时给style标签加入lang="scss"属性*/
 	@import "uview-ui/index.scss";
-	// @import '@/common/style/common.css';
-	@import '@/common/style/common.scss'; //推荐使用scss
+	@import '@/common/style/common.css'; //推荐使用scss，在uni.scss导入
 </style>

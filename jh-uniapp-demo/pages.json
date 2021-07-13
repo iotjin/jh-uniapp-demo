@@ -122,13 +122,43 @@
 				"enablePullDownRefresh": false
 			}
 		}
+		, {
+			"path": "pages/demoList/gridView/gridViewDemoList",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/demoList/gridView/gridView1",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/demoList/gridView/gridView2",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/demoList/gridView/gridView3",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/demoList/gridView/gridView4",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		}
         , {
 			"path": "pages/demoList/other/otherDemoList",
 			"style": {
 				"navigationBarTitleText": "",
 				"enablePullDownRefresh": false
 			}
-
         }
 		, {
 			"path": "pages/demoList/other/baseNavBarDemo/baseNavBarDemo",
@@ -137,15 +167,13 @@
 				"enablePullDownRefresh": false
 			}
 		}
+        , {
+			"path": "pages/demoList/other/other/systemInfo",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
 
-        ,{
-            "path" : "pages/demoList/other/other/systemInfo",
-            "style" :                                                                                    
-            {
-                "navigationBarTitleText": "",
-                "enablePullDownRefresh": false
-            }
-            
         }
     ],
 	"globalStyle": {

@@ -5,7 +5,6 @@
 </template>
 
 <script>
-	const ProjectConfig = require('../../common/configs/projectConfig.js')
 	export default {
 		data() {
 			return {
@@ -16,7 +15,7 @@
 					},
 					{
 						title: "GridView",
-						url: ''
+						url: './gridView/gridViewDemoList'
 					},
 					{
 						title: "ECharts",
@@ -34,16 +33,7 @@
 			}
 		},
 		methods: {
-
 			onClickItem(item) {
-				console.log(getApp().globalData.name)
-				getApp().globalData.name = '123'
-				console.log(getApp().globalData.name)
-				console.log('---------');
-				console.log(ProjectConfig.kAppName);
-				ProjectConfig.kAppName = "哈哈哈"
-				console.log(ProjectConfig.kAppName);
-
 				if (item.url) {
 					uni.navigateTo({
 						url: item.url

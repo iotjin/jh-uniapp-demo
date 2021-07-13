@@ -5,7 +5,13 @@ $base-theme-color2:#4252dd;
 // 边框颜色 230
 $base-border-color:#E6E6E6;
 $base-boder-width: 1px;
+$grid-boder-width: 1px;
+$grid-border-color:#E6E6E6;
 
+//grid-column
+@mixin grid-column($col) {
+	width:100%/ $col;
+};
 
 /* 提交按钮 */
 .base-submit-btn {
@@ -25,19 +31,27 @@ $base-boder-width: 1px;
 
 /* gridView */
 .base-grid-bg {
-  display: flex;
-  flex-direction: row;
-  padding: 30rpx 20rpx;
-  justify-content: space-between;
-  flex-wrap: wrap;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: flex-start;
+	background: white;
+	background: yellow;
+	margin: 10rpx;
+	border-left: $grid-boder-width solid $grid-border-color;
+	border-top: $grid-boder-width solid $grid-border-color;
 }
 
-.base-item-bg {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 45%;
-  padding: 1%;
+.base-grid-item-bg {
+	@include grid-column(3);
+	padding: 5px;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	align-content: space-between;
+	border-right: $grid-boder-width solid $grid-border-color;
+	border-bottom: $grid-boder-width solid $grid-border-color;
 }
 
 .base-substring {
