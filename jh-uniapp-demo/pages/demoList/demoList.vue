@@ -11,7 +11,7 @@
 				title: "DemoList",
 				dataArr: [{
 						title: "ListView",
-						url: ''
+						url: './listView/listViewDemoList'
 					},
 					{
 						title: "GridView",

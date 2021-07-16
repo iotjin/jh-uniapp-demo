@@ -153,6 +153,61 @@
 				"enablePullDownRefresh": false
 			}
 		}
+		, {
+			"path": "pages/demoList/listView/listViewDemoList",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/demoList/listView/listView1",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/demoList/listView/listView2",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": true
+			}
+		}, {
+			"path": "pages/demoList/listView/listView3",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/demoList/listView/listView4",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/demoList/listView/listView5",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/demoList/listView/listView6",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/demoList/listView/listView7",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/demoList/listView/listView8",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		}
         , {
 			"path": "pages/demoList/other/otherDemoList",
 			"style": {
@@ -181,6 +236,7 @@
 		"navigationBarTitleText": "",
 		"navigationBarBackgroundColor": "#38BC9D",
 		"backgroundColor": "#F8F8F8",
+		"backgroundColorTop": "#FFFFFF", // iOS APP真机bounce回弹区域默认灰色,建议统一重置为白色
 		"usingComponents": {
 			//#ifdef  MP-WEIXIN
 			"van-button": "/wxcomponents/vant/button/index",
