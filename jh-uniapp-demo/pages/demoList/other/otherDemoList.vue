@@ -15,6 +15,9 @@
 					}, {
 						title: "获取设备系统信息",
 						url: './other/systemInfo',
+					}, {
+						title: "AES、RSA、SHA256、MD5、base64使用",
+						url: './other/encryptDemo',
 					},
 				],
 			}

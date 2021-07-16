@@ -54,16 +54,18 @@ A new uniapp project - 实现一些常用效果、封装通用组件和工具类
 
 ## 实现的一些效果
 
-- 三方通用组件：`uni`组件（在 uni_modules 文件夹）和`uView`组件(npm 安装，在 node_modules 文件夹)，图表使用的`lime-echart`，`vant` 只在小程序使用
+- 三方通用组件：`uni`组件（在 uni_modules 文件夹）和`uView`组件(npm 安装，在 node_modules 文件夹)，图表使用的`lime-echart`，刷新使用的`mescroll-uni`，`vant` 只在小程序使用
 - ListView 相关
 - GridView 相关
 - ECharts 相关(多图表异步加载、渐变折线图、折线柱状图混合图表)
 - uni 网络请求封装和 api 配置
+- AES、RSA加解密，SHA256、MD5加密，base64编码解码
 - 数据缓存
 - 全局常量、变量
 - 公共样式
-- 基类: base-navbar
+- 基类组件: base-navbar、base-refresh-view
 - 网络监听，设备类型和刘海屏判断
+- 时间格式转换、正则校验、
 - 封装一些组件(在 `components` 文件夹)和工具类(在 `utils` 文件夹)
 
 <br>

@@ -228,7 +228,12 @@
 				"navigationBarTitleText": "",
 				"enablePullDownRefresh": false
 			}
-
+        }, {
+			"path": "pages/demoList/other/other/encryptDemo",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
         }
     ],
 	"globalStyle": {
