@@ -14,9 +14,15 @@
 	export default {
 		data() {
 			return {
+				title: "关于",
 				appName: ProjectConfig.kAppName,
 				versionNum: ProjectConfig.kVersion,
 			}
+		},
+		onReady() {
+			uni.setNavigationBarTitle({
+				title: this.title
+			})
 		},
 		methods: {
 

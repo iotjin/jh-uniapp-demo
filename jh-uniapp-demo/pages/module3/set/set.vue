@@ -10,6 +10,7 @@
 	export default {
 		data() {
 			return {
+				title: "设置",
 				dataArr: [{
 						title: "关于",
 						url: '../about/about'
@@ -20,6 +21,11 @@
 					},
 				],
 			}
+		},
+		onReady() {
+			uni.setNavigationBarTitle({
+				title: this.title
+			})
 		},
 		methods: {
 			onClick(item) {

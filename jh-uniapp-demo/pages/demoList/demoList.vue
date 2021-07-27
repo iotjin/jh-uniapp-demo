@@ -8,7 +8,7 @@
 	export default {
 		data() {
 			return {
-				title: "DemoList",
+				title: "Demo",
 				dataArr: [{
 						title: "ListView",
 						url: './listView/listViewDemoList'
@@ -31,6 +31,11 @@
 					},
 				],
 			}
+		},
+		onReady() {
+			uni.setNavigationBarTitle({
+				title: this.title
+			})
 		},
 		methods: {
 			onClickItem(item) {

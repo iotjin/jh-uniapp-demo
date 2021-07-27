@@ -11,8 +11,13 @@
 				title: "Other",
 				dataArr: [{
 						title: "base-navbar组件",
-						url: './baseNavBarDemo/baseNavBarDemo'
-					}, {
+						url: './other/baseNavBarDemo'
+					},
+					{
+						title: "弹框组件",
+						url: './other/alertDemo'
+						},
+					{
 						title: "获取设备系统信息",
 						url: './other/systemInfo',
 					}, {

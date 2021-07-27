@@ -39,6 +39,7 @@
 	export default {
 		data() {
 			return {
+				title: "base-navbar组件",
 				isBack: true,
 				title: '标题',
 				leftImg: require("@/static/images/ic_search.png"),
@@ -46,6 +47,11 @@
 				rightImg: require("@/static/images/ic_set.png"),
 				rightText: "右侧"
 			}
+		},
+		onReady() {
+			uni.setNavigationBarTitle({
+				title: this.title
+			})
 		},
 		methods: {
 			clickLeftItem() {

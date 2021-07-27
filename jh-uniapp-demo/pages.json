@@ -43,198 +43,48 @@
 				"navigationBarTitleText": "我的",
 				"enablePullDownRefresh": false
 			}
-		}
-		, {
-			"path": "pages/module3/set/set",
-			"style": {
-				"navigationBarTitleText": "设置",
-				"enablePullDownRefresh": false
-			}
-
-		}
-		, {
-			"path": "pages/module3/about/about",
-			"style": {
-				"navigationBarTitleText": "关于",
-				"enablePullDownRefresh": false
-			}
-
-		}
-		, {
+		},
+		{ "path": "pages/module3/set/set" },
+		{ "path": "pages/module3/about/about" },
+		{
 			"path": "pages/module4/index",
 			"style": {
 				"navigationBarTitleText": "模块四",
 				"enablePullDownRefresh": false
 			}
-		}, {
-			"path": "pages/module4/jump/jump",
-			"style": {
-				"navigationBarTitleText": "",
-				"enablePullDownRefresh": false
-			}
 		},
+		{ "path": "pages/module4/jump/jump" },
+		{ "path": "pages/demoList/demoList" },
+		{ "path": "pages/demoList/eCharts/eChartsDemoList" },
+		{ "path": "pages/demoList/eCharts/eCharts1" },
+		{ "path": "pages/demoList/eCharts/eCharts2" },
+		{ "path": "pages/demoList/eCharts/eCharts3" },
+		{ "path": "pages/demoList/eCharts/eCharts4" },
+		{ "path": "pages/demoList/eCharts/eCharts5" },
+		{ "path": "pages/demoList/gridView/gridViewDemoList" },
+		{ "path": "pages/demoList/gridView/gridView1" },
+		{ "path": "pages/demoList/gridView/gridView2" },
+		{ "path": "pages/demoList/gridView/gridView3" },
+		{ "path": "pages/demoList/gridView/gridView4" },
+		{ "path": "pages/demoList/listView/listViewDemoList" },
+		{ "path": "pages/demoList/listView/listView1" },
 		{
-			"path": "pages/demoList/demoList",
-			"style": {
-				"navigationBarTitleText": "Demo",
-				"enablePullDownRefresh": false
-			}
-		},
-		{
-			"path": "pages/demoList/eCharts/eChartsDemoList",
-			"style": {
-				"navigationBarTitleText": "",
-				"enablePullDownRefresh": false
-			}
-		},
-		{
-			"path": "pages/demoList/eCharts/eCharts1",
-			"style": {
-				"navigationBarTitleText": "",
-				"enablePullDownRefresh": false
-			}
-		},
-		{
-			"path": "pages/demoList/eCharts/eCharts2",
-			"style": {
-				"navigationBarTitleText": "",
-				"enablePullDownRefresh": false
-			}
-		},
-		{
-			"path": "pages/demoList/eCharts/eCharts3",
-			"style": {
-				"navigationBarTitleText": "",
-				"enablePullDownRefresh": false
-			}
-		},
-		{
-			"path": "pages/demoList/eCharts/eCharts4",
-			"style": {
-				"navigationBarTitleText": "",
-				"enablePullDownRefresh": false
-			}
-		},
-		{
-			"path": "pages/demoList/eCharts/eCharts5",
-			"style": {
-				"navigationBarTitleText": "",
-				"enablePullDownRefresh": false
-			}
-		}
-		, {
-			"path": "pages/demoList/gridView/gridViewDemoList",
-			"style": {
-				"navigationBarTitleText": "",
-				"enablePullDownRefresh": false
-			}
-		}, {
-			"path": "pages/demoList/gridView/gridView1",
-			"style": {
-				"navigationBarTitleText": "",
-				"enablePullDownRefresh": false
-			}
-		}, {
-			"path": "pages/demoList/gridView/gridView2",
-			"style": {
-				"navigationBarTitleText": "",
-				"enablePullDownRefresh": false
-			}
-		}, {
-			"path": "pages/demoList/gridView/gridView3",
-			"style": {
-				"navigationBarTitleText": "",
-				"enablePullDownRefresh": false
-			}
-		}, {
-			"path": "pages/demoList/gridView/gridView4",
-			"style": {
-				"navigationBarTitleText": "",
-				"enablePullDownRefresh": false
-			}
-		}
-		, {
-			"path": "pages/demoList/listView/listViewDemoList",
-			"style": {
-				"navigationBarTitleText": "",
-				"enablePullDownRefresh": false
-			}
-		}, {
-			"path": "pages/demoList/listView/listView1",
-			"style": {
-				"navigationBarTitleText": "",
-				"enablePullDownRefresh": false
-			}
-		}, {
 			"path": "pages/demoList/listView/listView2",
 			"style": {
-				"navigationBarTitleText": "",
 				"enablePullDownRefresh": true
 			}
-		}, {
-			"path": "pages/demoList/listView/listView3",
-			"style": {
-				"navigationBarTitleText": "",
-				"enablePullDownRefresh": false
-			}
-		}, {
-			"path": "pages/demoList/listView/listView4",
-			"style": {
-				"navigationBarTitleText": "",
-				"enablePullDownRefresh": false
-			}
-		}, {
-			"path": "pages/demoList/listView/listView5",
-			"style": {
-				"navigationBarTitleText": "",
-				"enablePullDownRefresh": false
-			}
-		}, {
-			"path": "pages/demoList/listView/listView6",
-			"style": {
-				"navigationBarTitleText": "",
-				"enablePullDownRefresh": false
-			}
-		}, {
-			"path": "pages/demoList/listView/listView7",
-			"style": {
-				"navigationBarTitleText": "",
-				"enablePullDownRefresh": false
-			}
-		}, {
-			"path": "pages/demoList/listView/listView8",
-			"style": {
-				"navigationBarTitleText": "",
-				"enablePullDownRefresh": false
-			}
-		}
-        , {
-			"path": "pages/demoList/other/otherDemoList",
-			"style": {
-				"navigationBarTitleText": "",
-				"enablePullDownRefresh": false
-			}
-        }
-		, {
-			"path": "pages/demoList/other/baseNavBarDemo/baseNavBarDemo",
-			"style": {
-				"navigationBarTitleText": "base-navbar组件",
-				"enablePullDownRefresh": false
-			}
-		}
-        , {
-			"path": "pages/demoList/other/other/systemInfo",
-			"style": {
-				"navigationBarTitleText": "",
-				"enablePullDownRefresh": false
-			}
-        }, {
-			"path": "pages/demoList/other/other/encryptDemo",
-			"style": {
-				"navigationBarTitleText": "",
-				"enablePullDownRefresh": false
-			}
-        }
+		},
+		{ "path": "pages/demoList/listView/listView3" },
+		{ "path": "pages/demoList/listView/listView4" },
+		{ "path": "pages/demoList/listView/listView5" },
+		{ "path": "pages/demoList/listView/listView6" },
+		{ "path": "pages/demoList/listView/listView7" },
+		{ "path": "pages/demoList/listView/listView8" },
+		{ "path": "pages/demoList/other/otherDemoList" },
+		{ "path": "pages/demoList/other/other/baseNavBarDemo" },
+		{ "path": "pages/demoList/other/other/alertDemo" },
+		{ "path": "pages/demoList/other/other/systemInfo" },
+		{ "path": "pages/demoList/other/other/encryptDemo" }
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "white",
