@@ -24,7 +24,7 @@
 
 .item-row {
 	display: flex;
-	margin: 10px 15px;
+	padding: 10px 15px;
 }
 
 .row-vertical-line {
