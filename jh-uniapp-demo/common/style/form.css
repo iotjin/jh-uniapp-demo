@@ -1,0 +1,83 @@
+.form-submit-btn {
+	margin: 20px 15px;
+	height: 40px;
+	line-height: 40px;
+	border-radius: 5px;
+	background: #4252dd;
+	font-size: 17px;
+	text-align: center;
+	color: white;
+}
+
+.form-bg {
+	margin: 10px;
+	border-radius: 5px;
+	box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.1);
+}
+
+.header-bg {
+	display: flex;
+	padding: 15px;
+	/*border-bottom: 1px solid #E6E6E6;*/
+}
+
+.header-title {
+	color: rgb(50, 50, 50);
+	font-weight: 500;
+}
+
+.header-line {
+	height: 2px;
+	margin: 0px 10px;
+	background: rgb(242, 242, 242);
+}
+
+.form-row {
+	display: flex;
+	margin: 10px 15px;
+}
+
+.form-title {
+	flex: 25;
+	font-size: 15px;
+	color: rgb(50, 50, 50);
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.form-info {
+	flex: 75;
+	font-size: 15px;
+	color: rgb(100, 100, 100);
+}
+
+.form-line {
+	height: 2px;
+	margin: 0px 10px;
+	background: rgb(242, 242, 242);
+}
+
+/* <div style="padding-top: 30px;"></div>
+<div class="form-bg">
+    <div class="header-bg">
+        <div class="header-title">姓名:</div>
+    </div>
+    <div class="form-line"></div>
+    <div class="form-row">
+        <div class="form-title bold">姓名:</div>
+        <div class="form-info">张三</div>
+    </div>
+    <div class="form-line"></div>
+    <div class="form-row">
+        <div class="form-title bold">工作职责:</div>
+        <div class="form-info">工作负责人</div>
+    </div>
+    <div class="form-line"></div>
+    <div class="form-row">
+        <div class="form-title bold">工种:</div>
+        <div class="form-info">普工</div>
+    </div>
+    <div style="padding-top: 5px;"></div>
+</div> */
