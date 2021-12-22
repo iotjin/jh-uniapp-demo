@@ -3,10 +3,10 @@
 	height: 40px;
 	line-height: 40px;
 	border-radius: 5px;
-	background: #4252dd;
+	color: white;
 	font-size: 17px;
 	text-align: center;
-	color: white;
+	background: #4252dd;
 }
 
 .form-bg {
@@ -34,6 +34,7 @@
 
 .form-row {
 	display: flex;
+	align-items: center;
 	padding: 10px 15px;
 }
 
@@ -47,15 +48,43 @@
 	font-weight: bold;
 }
 
+.form-star-title {
+	flex: 25;
+	font-size: 15px;
+	color: rgb(50, 50, 50);
+}
+
+.form-star-title:before {
+	content: '*';
+	color: #f56c6c;
+	margin-left: -10px;
+	margin-right: 3px;
+}
+
 .form-info {
 	flex: 75;
 	font-size: 15px;
+	word-break: break-all;
 	color: rgb(100, 100, 100);
+}
+
+.right-arrow {
+	width: 7px;
+	height: 14px;
+	background-image: url("../../../../icon/right-b.png");
+	background-position: center;
+	background-size: 7px 14px;
+	background-repeat: no-repeat;
 }
 
 .form-line {
 	height: 2px;
 	margin: 0px 10px;
+	background: rgb(242, 242, 242);
+}
+
+.line {
+	height: 10px;
 	background: rgb(242, 242, 242);
 }
 
@@ -79,5 +108,12 @@
         <div class="form-title bold">工种:</div>
         <div class="form-info">普工</div>
     </div>
+	<div class="form-line"></div>
+	<div class="form-row">
+		<div class="form-star-title bold">释放日期:</div>
+		<div class="form-info">2021-10-12 10:10:10</div>
+		<div class="right-arrow"></div>
+	</div>
+	<div class="form-line"></div>
     <div style="padding-top: 5px;"></div>
 </div> */
