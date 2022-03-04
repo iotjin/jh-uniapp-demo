@@ -56,7 +56,12 @@
         "setting" : {
             "urlCheck" : false
         },
-        "usingComponents" : true
+        "usingComponents" : true,
+        "permission" : {
+            "scope.userLocation" : {
+                "desc" : "获取经纬度用于定位"
+            }
+        }
     },
     "mp-alipay" : {
         "usingComponents" : true

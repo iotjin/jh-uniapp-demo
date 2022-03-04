@@ -119,6 +119,7 @@
 				key: '4M5BZ-ALKLU-BVXVL-B2HCC-DJSUS-WGFBH'
 			});
 			this.mapCtx = wx.createMapContext('myMap')
+			this.getCurrentLocation()
 		},
 		onReady() {
 			uni.setNavigationBarTitle({
@@ -135,10 +136,8 @@
 					success: (res) => {
 						console.log('当前位置');
 						console.log(res);
-						that.setData({
-							latitude: res.latitude,
-							longitude: res.longitude,
-						});
+						that.latitude = res.latitude
+						that.longitude = res.longitude
 					},
 					fail: (err) => {}
 				});
@@ -150,9 +149,9 @@
 				// // 判断权限
 				// wx.getSetting({
 				// 	success(res) {
-				// 		if (!res.authSetting['scope.record']) {
+				// 		if (!res.authSetting['scope.userLocation']) {
 				// 			uni.showToast({
-				// 				title: '未授权',
+				// 				title: '未授权小程序使用位置权限',
 				// 				icon: 'none'
 				// 			})
 				// 		} else {
