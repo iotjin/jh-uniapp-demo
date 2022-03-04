@@ -34,4 +34,15 @@ npm list
 【npm uninstall xxx】删除xxx模块；
 【npm uninstall -g xxx】删除全局模块xxx；
 
+
+
+更新：
+
+npm list //命令查询现在系统安装的版本
+
+npm view uview-ui versions  //命令查询服务器现在有的版本
+
+npm uninstall uview-ui  //移除现在系统安装的版本
+
+
 */

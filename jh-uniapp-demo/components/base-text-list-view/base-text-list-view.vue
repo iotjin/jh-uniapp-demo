@@ -1,7 +1,7 @@
 <template>
 	<view>
 		<u-cell-group>
-			<u-cell-item :title="item.title" :value="item.value" :arrow="true" v-for="item in dataArr" :key="item.title" @click="onClick(item)">
+			<u-cell-item :title="item.title" :value="item.value || ''" :arrow="true" v-for="item in dataArr" :key="item.title" @click="onClick(item)">
 				<template v-if="item.icon" slot="icon">
 					<image class="icon" :src="item.icon"></image>
 				</template>

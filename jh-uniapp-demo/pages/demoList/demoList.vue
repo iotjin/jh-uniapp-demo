@@ -23,7 +23,11 @@
 					},
 					{
 						title: "UI",
-						url: ''
+						url: './ui/uiDemoList'
+					},
+					{
+						title: "Map",
+						url: './map/mapDemoList'
 					},
 					{
 						title: "Other",
@@ -39,7 +43,10 @@
 		},
 		methods: {
 			onClickItem(item) {
+				console.log(item)
+				console.log(item.url)
 				if (item.url) {
+					console.log(item.url)
 					uni.navigateTo({
 						url: item.url
 					})

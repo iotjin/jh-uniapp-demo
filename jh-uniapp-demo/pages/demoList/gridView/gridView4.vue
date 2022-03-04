@@ -4,9 +4,9 @@
 			<view class="group-bg">
 				<u-cell-group :title="groupDataArr[index].groupTitle" :border="false">
 					<u-grid :col="3" :border="false" class="grid-bg">
-						<u-grid-item v-for="(item, index) in groupDataArr[index].groupData" :key="index" @click="onClickItem(item,index)">
-							<image class="img" :src="item.img"></image>
-							<view class="text">{{item.text}}</view>
+						<u-grid-item v-for="(item2, index2) in groupDataArr[index].groupData" :key="index2" @click="onClickItem(item2,index2)">
+							<image class="img" :src="item2.img"></image>
+							<view class="text">{{item2.text}}</view>
 						</u-grid-item>
 					</u-grid>
 				</u-cell-group>
